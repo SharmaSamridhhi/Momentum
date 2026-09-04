@@ -13,7 +13,7 @@ def solver(matrix):
             return maxi
         
         if dp[indx][last] != -1:
-        	return dp[indx][last]
+            return dp[indx][last]
         maxi = 0
         for i in range(3):
             if i != last:
